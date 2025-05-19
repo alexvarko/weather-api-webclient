@@ -17,14 +17,14 @@ const WeatherDisplay: React.FC<WeatherDisplayProps> = ({
       </h2>
       <div className="space-y-2">
         <p>
-          <span className="font-semibold">Temperature:</span>{" "}
+          <span className="font-semibold">🌡️ Temperature:</span>{" "}
           {weatherData.temperature}°C
         </p>
         <p>
-          <span className="font-semibold">Humidity:</span> {weatherData.humidity}%
+          <span className="font-semibold">💧 Humidity:</span> {weatherData.humidity}%
         </p>
         <p>
-          <span className="font-semibold">Description:</span>{" "}
+          <span className="font-semibold">🌥️ Description:</span>{" "}
           {weatherData.description}
         </p>
       </div>
