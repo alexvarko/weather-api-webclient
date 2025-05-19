@@ -49,7 +49,7 @@ const SubscriptionForm: React.FC<SubscriptionFormProps> = ({ city }) => {
         <div>
           <label
             htmlFor="email"
-            className="block text-sm font-medium text-gray-700 mb-1"
+            className="block text-sm font-semibold mb-1"
           >
             Email Address:
           </label>
@@ -67,7 +67,7 @@ const SubscriptionForm: React.FC<SubscriptionFormProps> = ({ city }) => {
         <div>
           <label
             htmlFor="frequency"
-            className="block text-sm font-medium text-gray-700 mb-1"
+            className="block text-sm font-semibold mb-1"
           >
             Update Frequency:
           </label>

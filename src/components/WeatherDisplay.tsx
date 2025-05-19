@@ -12,19 +12,19 @@ const WeatherDisplay: React.FC<WeatherDisplayProps> = ({
 }) => {
   return (
     <div className="w-full max-w-md bg-blue-50 rounded-lg shadow p-6">
-      <h2 className="text-xl font-semibold text-gray-800 mb-4">
+      <h2 className="text-xl font-semibold  mb-4">
         Current Weather in {city}
       </h2>
       <div className="space-y-2">
-        <p className="text-gray-700">
-          <span className="font-medium">Temperature:</span>{" "}
+        <p>
+          <span className="font-semibold">Temperature:</span>{" "}
           {weatherData.temperature}°C
         </p>
-        <p className="text-gray-700">
-          <span className="font-medium">Humidity:</span> {weatherData.humidity}%
+        <p>
+          <span className="font-semibold">Humidity:</span> {weatherData.humidity}%
         </p>
-        <p className="text-gray-700">
-          <span className="font-medium">Description:</span>{" "}
+        <p>
+          <span className="font-semibold">Description:</span>{" "}
           {weatherData.description}
         </p>
       </div>

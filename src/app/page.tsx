@@ -93,7 +93,7 @@ const Home: NextPage = () => {
 
         {showSubscribe && (
           <div className="w-full max-w-md mt-8">
-            <h2 className="text-2xl font-semibold text-center text-gray-800 mb-4">
+            <h2 className="text-2xl font-semibold text-center mb-4">
               Subscribe to Weather Updates
             </h2>
             <SubscriptionForm city={submittedCity} />
